@@ -1,3 +1,17 @@
 body {
-    background-color: tomato;
+    background-color: rgba(155,25,125, 50%);
+    /*background-color: #9f0000;*/
+    color: rgb(255, 255, 255) ;
+}
+.test-link {
+    color: yellowgreen;
+}
+.test-link:hover {
+    color: aquamarine;
+}
+.table {
+    color: green;
+}
+.table-caption{
+    color: blue
 }
