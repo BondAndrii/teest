@@ -1,17 +1,30 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
 body {
-    background-color: rgba(155,25,125, 50%);
+    background-color: rgba(255, 255, 255);
     /*background-color: #9f0000;*/
-    color: rgb(255, 255, 255) ;
+    color: rgb(0, 0, 0) ;
 }
-.test-link {
-    color: yellowgreen;
+.btn{
+    display: inline-block;
+    padding: 20px 40px;    
+    background-color: rebeccapurple;
+    color: white;
+    text-decoration: none;
+    border: 5px solid black;
+
 }
-.test-link:hover {
-    color: aquamarine;
-}
-.table {
-    color: green;
-}
-.table-caption{
-    color: blue
+.btn-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    margin-right:5px;
+    vertical-align: bottom;
 }
