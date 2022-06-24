@@ -1,4 +1,107 @@
 
+
+// -----------------------------22-4блок---------------------------//
+// users = [
+//   {
+//     name: "Moore Hensley",
+//     email: "moorehensley@indexia.com",
+//     eyeColor: "blue",
+//     friends: ["Sharron Pace"],
+//     isActive: false,
+//     balance: 2811,
+//     gender: "male"
+//   },
+//   {
+//     name: "Sharlene Bush",
+//     email: "sharlenebush@tubesys.com",
+//     eyeColor: "blue",
+//     friends: ["Briana Decker", "Sharron Pace"],
+//     isActive: true,
+//     balance: 3821,
+//     gender: "female"
+//   },
+//   {
+//     name: "Ross Vazquez",
+//     email: "rossvazquez@xinware.com",
+//     eyeColor: "green",
+//     friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+//     isActive: false,
+//     balance: 3793,
+//     gender: "male"
+//   },
+//   {
+//     name: "Elma Head",
+//     email: "elmahead@omatom.com",
+//     eyeColor: "green",
+//     friends: ["Goldie Gentry", "Aisha Tran"],
+//     isActive: true,
+//     balance: 2278,
+//     gender: "female"
+//   },
+//   {
+//     name: "Carey Barr",
+//     email: "careybarr@nurali.com",
+//     eyeColor: "blue",
+//     friends: ["Jordan Sampson", "Eddie Strong"],
+//     isActive: true,
+//     balance: 3951,
+//     gender: "male"
+//   },
+//   {
+//     name: "Blackburn Dotson",
+//     email: "blackburndotson@furnigeer.com",
+//     eyeColor: "brown",
+//     friends: ["Jacklyn Lucas", "Linda Chapman"],
+//     isActive: false,
+//     balance: 1498,
+//     gender: "male"
+//   },
+//   {
+//     name: "Sheree Anthony",
+//     email: "shereeanthony@kog.com",
+//     eyeColor: "brown",
+//     friends: ["Goldie Gentry", "Briana Decker"],
+//     isActive: true,
+//     balance: 2764,
+//     gender: "female"
+//   }
+// ]
+// console.log(users);
+// const userEye = function (arrs, eyeCol,) {
+//   const colorEye = [];
+//   for (const arr of arrs) {    
+//     if (arr.eyeColor === eyeCol) {
+//       colorEye.push(arr);
+//     }
+//   }
+//   return (colorEye);
+// }
+// console.log(userEye(users, "brown")); 
+// //-------------------------------------------------------------------------------
+
+// const userEye = (arrs, eyeCol) => {
+//   return arrs.filter((arr) => arr.eyeColor === eyeCol);
+ 
+
+// };
+// console.log(userEye(users, "brown")); 
+//--------------------------------------зараховано----------------------------------------------//
+// function changeEven(numbers, value) {  
+//   // Change code below this line
+//   const newNumbers = [];
+//   console.log(newNumbers);
+//   numbers.forEach ( number => {
+//     if (number % 2 === 0) {
+//       number +=value;
+//       newNumbers.push(number);
+//       return
+//     }
+//     newNumbers.push(number);     
+//   })   
+//  return newNumbers;
+//   // Change code above this line `
+// }
+// changeEven([1, 2, 3, 4, 5], 10);
 // ----------------------Задачка 41/41 3 блок--------------------------//
 
 // const atTheOldToad = {
