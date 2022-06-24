@@ -1,3 +1,16 @@
+//-------------------------задача 35 4 блок------------------------//
+// const players = [
+//   { name: "Mango", playtime: 1270, gamesPlayed: 4 },
+//   { name: "Poly", playtime: 469, gamesPlayed: 2 },
+//   { name: "Ajax", playtime: 690, gamesPlayed: 3 },
+//   { name: "Kiwi", playtime: 241, gamesPlayed: 1 },
+// ];
+// // Change code below this line
+
+// const totalAveragePlaytimePerGame = players.reduce((total, {playtime, gamesPlayed}) => {
+//     return total += playtime/gamesPlayed
+// }, 0);
+//-----------------------------------------зараховано-----------
 //-------------------------задача 23 4 блок------------------------//
 // const getUsersWithAge = (users, minAge, maxAge) => {
 //     return users.filter((user) => user.age >= minAge && user.age < maxAge)
