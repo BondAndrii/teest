@@ -1,3 +1,74 @@
+
+"use strict";
+const makeChangeColor = function () {
+  const changeColor = function (color) {
+    console.log("changeColor -> this", this);
+    this.color = color;
+  }; 
+
+  return changeColor;
+}
+
+const updateColor = makeChangeColor();
+// updateColor("yellow");
+const hat = {
+  color: `blue`,
+  updateColor,
+};
+
+hat.updateColor(`orange`);
+console.log(hat.updateColor);
+console.log(hat.color);
+hat.updateColor("white");
+console.log(hat.color);
+const mat = {
+  color: "red",
+  updateColor,
+};
+mat.updateColor("green");
+console.log(mat.color);
+//  
+// const petya = {
+//   username: "Petya",
+//   showThis() {
+//     console.log(this);
+//   },
+//   showName() {
+//     console.log(this.username);
+//   },
+// };
+
+// petya.showThis(); // {username: "Petya", showThis: ƒ, showName: ƒ}
+// petya.showName(); // 'Petya'
+
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     rating: 8.38,
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     rating: 8.51,
+//   },
+//   {
+//     title: "The Dream of a Ridiculous Man",
+//     author: "Fyodor Dostoevsky",
+//     rating: 7.75,
+//   },
+//   { title: "Redder Than Blood", author: "Tanith Lee", rating: 7.94 },
+//   {
+//     title: "The Dreams in the Witch House",
+//     author: "Howard Lovecraft",
+//     rating: 8.67,
+//   },
+// ];
+// const MIN_BOOK_RATING = 8;
+// // Change code below this line
+
+// const names = books.filter(book => book.rating > MIN_BOOK_RATING).sort((a, b) => )
+// console.log(names);
 //-------------------------задача 41 4 блок------------------------//
 // users = [
 //   {
