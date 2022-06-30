@@ -1,32 +1,92 @@
+document.addEventListener("keydown", event => {
+  console.log("key: ", event.key);
+  console.log("code: ", event.code);
+});
 
-"use strict";
-const makeChangeColor = function () {
-  const changeColor = function (color) {
-    console.log("changeColor -> this", this);
-    this.color = color;
-  }; 
+// "use strict"
 
-  return changeColor;
-}
+// alert('Ку, Льоха!');
 
-const updateColor = makeChangeColor();
-// updateColor("yellow");
-const hat = {
-  color: `blue`,
-  updateColor,
-};
+// class Car {
+//   // Change code below this line
+//   #price;
+//   static MAX_PRICE = 50000;
 
-hat.updateColor(`orange`);
-console.log(hat.updateColor);
-console.log(hat.color);
-hat.updateColor("white");
-console.log(hat.color);
-const mat = {
-  color: "red",
-  updateColor,
-};
-mat.updateColor("green");
-console.log(mat.color);
+//   constructor({ price }) {
+//     this.#price = price;
+//   }
+
+//   get price() {
+//     return this.#price;
+//   }
+
+//   set price(newPrice) {
+//     if (this.MAX_PRICE >= newPrice){
+//       this.#price = newPrice;
+//       console.log(this.#price);
+//       return this.#price;
+//     } return this.#price;
+//   }
+//   // Change code above this line
+// }
+
+// const audi = new Car({ price: 35000 });
+// console.log(audi.price); // 35000
+
+// audi.price = 49000;
+// console.log(audi.price); // 49000
+
+// audi.price = 51000;
+// console.log(audi.price); // 49000
+
+// "use strict";
+// const changeColor = function (color) {
+//     console.log("changeColor -> this", this);
+//     this.color = color;
+//   }; 
+// const hat = {
+//   color: `blue`, 
+// };
+// const mat = {
+//   color: "red", 
+// };
+
+// changeColor.call(hat, "yellow");
+// console.log(hat.color);
+// changeColor.call(mat, "green");
+// console.log(mat.color);
+// const changeHatBind = changeColor.bind(hat);
+// console.log(changeColor.bind(hat));
+// changeHatBind("rose");
+// console.log(hat.color);
+
+// const makeChangeColor = function () {
+//   const changeColor = function (color) {
+//     console.log("changeColor -> this", this);
+//     this.color = color;
+//   }; 
+
+//   return changeColor;
+// }
+
+// const updateColor = makeChangeColor();
+// // updateColor("yellow");
+// const hat = {
+//   color: `blue`,
+//   updateColor,
+// };
+
+// hat.updateColor(`orange`);
+// console.log(hat.updateColor);
+// console.log(hat.color);
+// hat.updateColor("white");
+// console.log(hat.color);
+// const mat = {
+//   color: "red",
+//   updateColor,
+// };
+// mat.updateColor("green");
+// console.log(mat.color);
 //  
 // const petya = {
 //   username: "Petya",
