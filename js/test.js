@@ -1,9 +1,10 @@
-document.addEventListener("keydown", event => {
-  console.log("key: ", event.key);
-  console.log("code: ", event.code);
-});
-
-// "use strict"
+const date = new Date(1555555555555);
+console.log(date);
+console.log(date.getMinutes());
+date.setMinutes(45);
+console.log(date);
+console.log(date.toString());;
+console.log(date.toDateString()); 
 
 // alert('Ку, Льоха!');
 
@@ -14,7 +15,7 @@ document.addEventListener("keydown", event => {
 
 //   constructor({ price }) {
 //     this.#price = price;
-//   }
+//   } 
 
 //   get price() {
 //     return this.#price;
